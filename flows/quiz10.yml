@@ -1,0 +1,72 @@
+completion_text: |-
+  Has finalizado, continua
+description: |-
+  Esto es un quiz muy sencillo
+groups:
+- id: intro
+  pages:
+  - content: "#Mi primer quiz\nBienvenido al quiz mas facil de la historia</div>\n\
+      \                        "
+    id: welcome
+    type: Page
+- id: quiz_start
+  pages:
+  - choices:
+    - ~CORRECT~ Amarillo
+    - ~CORRECT~ Rojo
+    - Verde
+    credit_mode: exact
+    id: quizquestion21
+    prompt: '#Colores de colombia?
+
+      None'
+    shuffle: true
+    type: MultipleChoiceQuestion
+    value: 4.0
+  - answers:
+    - <plain>ocho
+    - rtol: 1.0
+      type: float
+      value: '8'
+    - <case_sens_plain>eight
+    id: quizquestion22
+    prompt: '#Cuanto es 4+4?
+
+      None'
+    type: TextQuestion
+    value: 5.0
+  - choices:
+    - ~CORRECT~ Rojo
+    - ~CORRECT~ Verde
+    id: quizquestion23
+    prompt: '#Color del america?
+
+      None'
+    type: ChoiceQuestion
+    value: 5.0
+  shuffle: true
+rules:
+  access:
+  - message: Welcome! This message is brought to you by the access rules.
+    permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_latest
+  grade_identifier: quiz10
+  grading:
+  - credit_percent: '100'
+  start:
+  - if_before: 05/27/2020
+    if_has_fewer_sessions_than: '2'
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: '1'
+    may_start_new_session: '1'
+  - may_list_existing_sessions: '1'
+    may_start_new_session: '1'
+title: Mi primer quiz
