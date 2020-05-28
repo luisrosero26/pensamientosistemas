@@ -57,16 +57,16 @@ rules:
   grade_aggregation_strategy: use_latest
   grade_identifier: quiz10
   grading:
-  - credit_percent: '100'
+  - credit_percent: 100
   start:
-  - if_before: 05/27/2020
-    if_has_fewer_sessions_than: '1'
+  - if_before: 2020-05-28 02:03:05
+    if_has_fewer_sessions_than: 1
     if_has_role:
     - student
     - ta
     - instructor
-    may_list_existing_sessions: '1'
-    may_start_new_session: '1'
-  - may_list_existing_sessions: '1'
-    may_start_new_session: '1'
+    may_list_existing_sessions: true
+    may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: true
 title: Mi primer quiz
