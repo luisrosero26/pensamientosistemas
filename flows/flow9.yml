@@ -6,6 +6,9 @@ pages:
 - content: "#DA1\n<div class=\"lead\">ASDAS</div>\n                "
   id: page19
   type: Page
+- content: "#dia 2\n<div class=\"lead\">asdasd asdasd asd</div>\n                "
+  id: page20
+  type: Page
 rules:
   access:
   - if_has_role:
@@ -15,4 +18,4 @@ rules:
     permissions:
     - view
   grade_identifier: null
-title: Flujo 1
+title: semana1
