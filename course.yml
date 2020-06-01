@@ -2,12 +2,14 @@ chunks:
 - content: ''
   flows:
   - flow_id: flow9
+    next_flow: quiz10
     pages:
     - flow_id: page19
       title: DA1
     - flow_id: page20
       title: dia 2
     title: semana1
+    title_next_flow: Ir a un quiz sencillo
   id: welcome
   introduction: "Esta es una peque\xF1a introduccion de un curso por favor llenarla\
     \ no se te eolvidoe"
