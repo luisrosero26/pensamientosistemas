@@ -44,6 +44,14 @@ groups:
       None'
     type: ChoiceQuestion
     value: 5.0
+  - answers:
+    - <plain>1
+    id: quizquestion24
+    prompt: '#Pregunta multiples
+
+      None'
+    type: TextQuestion
+    value: 0.0
   shuffle: true
 rules:
   access:
