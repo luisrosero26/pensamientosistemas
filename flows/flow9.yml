@@ -4,7 +4,11 @@ completion_text: |-
 description: |-
   asdasd
 pages:
-- content: "#DA1\n<div class=\"lead\">ASDAS</div>\n                "
+- content: "#DA1\n<div class=\"lead\"><p>sadasd</p><p><br></p><p><br></p><p><br></p><p><span\
+    \ class=\"fr-video fr-deletable fr-fvc fr-dvb fr-draggable\" contenteditable=\"\
+    false\" draggable=\"true\"><iframe width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/oUtNDNooaP8?&wmode=opaque\"\
+    \ frameborder=\"0\" allowfullscreen=\"\" class=\"fr-draggable\"></iframe></span></p><p><br></p></div>\n\
+    \                "
   id: page19
   type: Page
 - content: "#dia 2\n<div class=\"lead\">asdasd asdasd asd</div>\n                "
