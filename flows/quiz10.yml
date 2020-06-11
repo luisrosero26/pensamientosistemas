@@ -51,7 +51,7 @@ groups:
 
       None'
     type: TextQuestion
-    value: 0.0
+    value: 5.0
   shuffle: true
 rules:
   access:
