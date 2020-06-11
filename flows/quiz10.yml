@@ -59,7 +59,7 @@ rules:
   grading:
   - credit_percent: 40
   start:
-  - if_before: 2020-06-08 16:29:39
+  - if_before: 2020-06-11 16:04:39
     if_has_fewer_sessions_than: 1
     if_has_role:
     - student
